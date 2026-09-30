@@ -1,0 +1,47 @@
+body {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#TEXT1_FLOAT { float: left; width: 70%; height: 40px; background-color: #7DD4F1; 
+    text-align: center; line-height: 40px; }
+
+#IMG1_FLOAT {float: left; width: 30%; height: 240px; background-color: #90F8B6;
+    text-align: center; line-height: 240px;}
+
+#IMG2_FLOAT {float: left; width:  30%; height: 40px; background-color: #F493F5;
+    text-align: center; line-height: 40px;}
+
+#TEXT2_FLOAT {float: left; width: 70%; height: 200px; background-color: #F1FB9B; 
+    text-align: center; line-height: 200px;}
+
+#TEXT3_FLOAT {float: left; width: 70%; height: 40px; background-color: #F5E4B3;
+    text-align: center; line-height: 40px;}
+
+#SECTION_FLEX_ROW{
+    display: flex;
+    flex-direction: row;
+}
+
+#SECTION_FLEX_COLUMN{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#TEXT1_FLEX {height: 40px; background-color: #7DD4F1; 
+    text-align: center; line-height: 40px; }
+
+#IMG1_FLEX {width: 30%; height: 240px; background-color: #90F8B6;
+    text-align: center; line-height: 240px;}
+
+#IMG2_FLEX {width:  30%; height: 40px; background-color: #F493F5;
+    text-align: center; line-height: 40px;}
+
+#TEXT2_FLEX {height: 200px; background-color: #F1FB9B; 
+    text-align: center; line-height: 200px;}
+
+#TEXT3_FLEX {width: 70%; height: 40px; background-color: #F5E4B3;
+    text-align: center; line-height: 40px;}
